@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.regCon {
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 800px;
+    
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #555;
+    font-weight: 500;
+    margin-left: 175px;
+    
+}
+
+.error-message{
+   
+        display: block;
+        margin-bottom: 6px;
+        color: #555;
+        font-weight: 500;
+        margin-left: 175px;
+        
+}
+
+.password-match{
+    display: block;
+    margin-bottom: 6px;
+    color: #555;
+    font-weight: 500;
+    margin-left: 175px;
+}
+
+input {
+    width: 400px;
+    text-align: center;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+    display: block; 
+    margin: 0 auto;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4a90e2;
+}
+
+.btnSubmit {
+    width: 400px;
+    padding: 12px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: background-color 0.3s;
+    text-align: center;
+    display: block; 
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.btsSubmit:hover {
+    background-color: #3a7bc8;
+}
+
+.btnReset {
+    width: 400px;
+    padding: 12px;
+    background-color: #f70c0c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: background-color 0.3s;
+    text-align: center;
+    display: block; 
+    margin: 0 auto;
+}
+
+.btsReset:hover {
+    background-color: #3a7bc8;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 12px;
+    margin-top: 4px;
+    display: none;
+}
+
+.password-match {
+    color: #2ecc71;
+    font-size: 12px;
+    margin-top: 4px;
+    display: none;
+}

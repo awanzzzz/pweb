@@ -3,7 +3,7 @@
 #include<cstdlib>
 #include<string>
 using namespace std;
-
+//
 struct Buku{
 	string judul, penulis, penerbit;
 	int jumlah, kode;
